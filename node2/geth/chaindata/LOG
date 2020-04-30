@@ -1,0 +1,30 @@
+=============== Apr 30, 2020 (EDT) ===============
+17:52:40.129263 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:52:40.149360 db@open opening
+17:52:40.151549 version@stat F·[] S·0B[] Sc·[]
+17:52:40.161435 db@janitor F·2 G·0
+17:52:40.162527 db@open done T·12.183375ms
+17:52:40.163775 db@close closing
+17:52:40.163980 db@close done T·200.533µs
+=============== Apr 30, 2020 (EDT) ===============
+17:59:11.811309 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:59:11.811570 version@stat F·[] S·0B[] Sc·[]
+17:59:11.811600 db@open opening
+17:59:11.811669 journal@recovery F·1
+17:59:11.812269 journal@recovery recovering @1
+17:59:11.821350 memdb@flush created L0@2 N·15 S·1KiB "\"M\x11..\xf8E@,v4":"\xf9\x16\xf5..1\x9a0,v3"
+17:59:11.822423 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+17:59:11.854140 db@janitor F·3 G·0
+17:59:11.854196 db@open done T·42.570138ms
+17:59:11.854992 db@close closing
+17:59:11.855198 db@close done T·201.049µs
+=============== Apr 30, 2020 (EDT) ===============
+18:01:55.637470 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:01:55.637746 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+18:01:55.637777 db@open opening
+18:01:55.637847 journal@recovery F·1
+18:01:55.640209 journal@recovery recovering @3
+18:01:55.650980 memdb@flush created L0@5 N·1 S·390B "eth..\xdd(Y,v17":"eth..\xdd(Y,v17"
+18:01:55.656874 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+18:01:55.689292 db@janitor F·4 G·0
+18:01:55.689343 db@open done T·51.550989ms
