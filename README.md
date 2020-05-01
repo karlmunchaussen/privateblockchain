@@ -113,11 +113,10 @@
 ./geth --datadir node1 --networkid <your network id> --unlock <account public address>  --rpc --mine --minerthreads 1 --allow-insecure-unlock
 ```
 
-
+* The **—unlock** flag allows to unlock the account, then launch and sync node with the network, so you'll be asked to provide a password you've previously created. 
 
 - The **—mine** flag tells node to mine new blocks; the **—minerthreads** flag tells get how many CPU “workers” to use.
 - The **—rpc** flag enables us to talk to other nodes.
-- The **—unlock** flag allows to unlock the account, then launch and sync node with the network.
 
 ![](https://github.com/karlmunchaussen/privateblockchain/blob/master/Images/10.png?raw=true)
 
